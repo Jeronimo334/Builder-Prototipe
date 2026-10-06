@@ -166,8 +166,7 @@ public class OrcoGuerrero implements Enemigo {
         this.tipoArma = tipoArma;
         this.salud = salud;
         this.fuerza = fuerza;
-        // Simulamos una carga costosa (ej. lectura de archivos 3D o bases de datos)
-        try { Thread.sleep(100); } catch (InterruptedException e) {}
+        
     }
 
     // Constructor de copia profunda
